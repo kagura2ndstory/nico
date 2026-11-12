@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f3f8">
+  <title>nico. | その髪に恋をした</title>
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Gsap -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+
+  <script src="./script.js" defer></script>
+
+  <!-- JQ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="no-js">
+  <div class="topbar">
+
+    <a class="brand" href="#top" aria-label="nico. トップ"><img class="mainlogo" src="img/nico-logo.png" alt=""><small>HAIR
+        CARE</small></a>
+    <button class="menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span></button>
+  </div>
+
+  <div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+    <nav>
+
+      <a href="#" class="sub-t">HAIR CARE</a>
+      <a href="#">nico.</a>
+      <a href="#lineup">LINE UP</a>
+      <a href="#lavender">LAVENDER</a>
+      <a href="#rosemary">ROSEMARY</a>
+      <a href="#scent">SCENT</a>
+      <a href="#blue">NICO BLUE</a>
+      <a href="#producer">PRODUCER</a>
+    </nav>
+  </div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-img">
+
+
+        <!-- swiper -->
+        <div id="sw01" class="swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="swiper-img" data-swiper-parallax-x="90%">
+                <img src="img/melancholiaphotography-woman-1320810.jpg" alt="" />
+              </div>
+              <div class="swiper-text">
+                <h3 class="swiper-title">その髪に、恋をした</h3>
+                <p class="swiper-desc" data-swiper-parallax-x="70%">
+                  It's falling love.
+
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-img" data-swiper-parallax-x="90%">
+                <img src="img/ben-white-7BiMECHFgFY-unsplash.jpg" alt="" />
+              </div>
+              <div class="swiper-text">
+                <h3 class="swiper-title">洗うたびに健康で美しく</h3>
+                <p class="swiper-desc" data-swiper-parallax-x="70%">
+                  and strong and beautiful..
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-img" data-swiper-parallax-x="90%">
+                <img src="img/aditya-saxena-_mIXHvl_wzA-unsplash.jpg" alt="" />
+              </div>
+              <div class="swiper-text">
+                <h3 class="swiper-title">起きた瞬間、 <br> 出かけたくなる髪</h3>
+                <p class="swiper-desc" data-swiper-parallax-x="70%">
+                  wake up,get out.
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-img" data-swiper-parallax-x="90%">
+                <img src="img/iam-05.jpg" alt="" />
+              </div>
+              <div class="swiper-text">
+                <h3 class="swiper-title">健やかで素直な <br> 子供のような髪になろう</h3>
+                <p class="swiper-desc" data-swiper-parallax-x="70%">
+                  like a child and hornet.
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-img" data-swiper-parallax-x="90%">
+                <img src="img/xusenru-girl-2189247.jpg" alt="" />
+              </div>
+              <div class="swiper-text">
+                <h3 class="swiper-title">しなやかさを愛で、 <br> 香りに酔う</h3>
+                <p class="swiper-desc" data-swiper-parallax-x="70%">
+                  Admire the suppleness, and grow <br>intoxicated by the fragrance.
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="hero-note">YOUR HAIR, YOUR STORY — NICO.</div>
+
+
+    </section>
+
+
+    <section class="section intro">
+
+      <div class='box'>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+        <div class='title'><img class="mainlogo" src="img/nico-logo.png" alt=""></div>
+      </div>
+
+      <div class="intro-box">
+        <div class="en">A LITTLE MORE LOVE, EVERY DAY</div>
+        <p>鏡を見るたび、指を通すたび。<br>自分の髪が、もっと好きになる。</p>
+
+        <p class="p-2">新ブランド登場  <br>nico.</p>
+      </div>
+
+    </section>
+
+
+    <!-- lineup -->
+    <section class="section lineup" id="lineup">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">01 / LINE UP</div>
+          <h2>タイプで選ぶ、<br>わたしの nico.</h2>
+        </div>
+        <p>香りも、仕上がりも、心地よさも。<br>あなたらしい一日を彩る3つのライン。</p>
+      </div>
+
+
+      <div class="products">
+
+
+        <figure class="snip1418">
+          <img src="img/shampoo-01 .png" alt="sample85" />
+          <div class="add-to-cart"> <i class="ion-android-add"></i><span>New Release</span></div>
+          <figcaption>
+            <h3>ニコ・ラベンダー</h3>
+            <p>All this modern technology just makes people try to do <br> everything at once.</p>
+            <div class="price">
+              <s>¥690</s>¥620
+            </div>
+          </figcaption><a href="#"></a>
+        </figure>
+
+        <figure class="snip1418">
+          <img src="img/shampoo-02.png" alt="sample85" />
+
+          <div class="add-to-cart"> <i class="ion-android-add"></i><span>New Release</span></div>
+
+          <figcaption>
+            <h3>ニコ・ローズマリー</h3>
+            <p>All this modern technology just makes people try to do <br> everything at once.</p>
+            <div class="price">
+              <s>¥690</s>¥620
+            </div>
+          </figcaption><a href="#"></a>
+        </figure>
+
+        <figure class="snip1418"><img src="img/shampoo-03.png" alt="sample92" />
+          <div class="add-to-cart"> <i class="ion-android-add"></i><span>New Releaset</span></div>
+          <figcaption>
+            <h3>ニコ・ブルー</h3>
+            <p>If your knees aren't green by the end of the day, you ought to seriously re-examine your life. </p>
+            <div class="price">
+              <s>¥690</s>¥620
+            </div>
+          </figcaption><a href="#"></a>
+        </figure>
+
+
+
+
+
+
+
+      </div>
+    </section>
+
+    <!-- lavender -->
+    <section class="feature" id="lavender">
+      <div class="feature-photo">
+
+
+
+
+
+
+        <img src="img/hear-02Designer.png" alt="髪のうるおい">
+      </div>
+
+      <div class="feature-copy reveal">
+        <div class="eyebrow">02 / LAVENDER</div>
+        <div class="feature-number">01 — MOISTURE</div>
+        <h2>うるおいで髪が喜ぶ<br>主成分・ラベンダー。</h2>
+        <p>ラベンダー由来の酢酸リナリル・リナロールが髪にうるおいを与え、しなやかでしっとり艶のある髪へ。カラーリングした髪にも寄り添い、パサつきをおさえて、毛先までなめらかにまとまります。</p>
+        <div class="quote">「朝から出かけたくなる」髪へ。</div>
+      </div>
+
+    </section>
+
+    <!-- rosemary -->
+    <section class="feature reverse ingredient" id="rosemary">
+      <div class="feature-photo"><img src="img/hear-01Designer.png" alt="髪を修復する"></div>
+      <div class="feature-copy reveal">
+        <div class="eyebrow">03 / ROSEMARY</div>
+        <div class="feature-number">02 — STRENGTH</div>
+        <h2>つやが出て、ピンとする。<br>髪の栄養・ローズマリー。</h2>
+        <p>第二のキー成分、ローズマリー。頭皮をすこやかに保ち、ダメージを受けた髪をなめらかに整えます。ハリ・コシのある、弾むような手触りへ。くせやパーマのある髪も、いきいきとした印象に。</p>
+        <div class="quote">「洗い流すのは、今日の疲れと髪のダメージ。」</div>
+      </div>
+    </section>
+
+    <!-- scent -->
+    <section class="section scent" id="scent">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow" style="color:#dca77f">04 / SIGNATURE SCENT</div>
+          <h2>ハートをつかむ、<br>優しい香り。</h2>
+        </div>
+        <p>ふとした瞬間に、思い出す。<br>nico.だけの、記憶に残る香り。</p>
+      </div>
+      <div class="scent-grid">
+        <div class="scent-main reveal"><img src="img/nora-hutton-jgKdOuA637s-unsplash.jpg" alt="はじける香り">
+          <div class="scent-caption">
+            <h3 class="serif">NICO BLEND</h3>
+            <p>天然精油を独自にブレンドした、<br>3つのシリーズそれぞれの香り。</p>
+          </div>
+        </div>
+        <div class="scent-side reveal">
+          <div class="big serif">動くたびに、<br>髪に恋をする。</div>
+          <p class="small">各シリーズに天然精油（エッセンシャルオイル）を独自配合した「ニコブレンド」。オリジナル香料「ニコムスク」がふんわり重なり、ほのかに優しく香ります。</p>
+          <div class="big serif" style="font-size:clamp(24px,3vw,38px);color:#e0b08b">その香りが、<br>忘れられない。</div>
+        </div>
+      </div>
+      <div class="voices reveal">
+        <h3>VOICE — サロン・ヘアメイクの現場から</h3>
+
+        <!-- voice slide -->
+        <!-- Slider main container -->
+        <div id="sw02" class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="picture">
+                <img src="img/hananeh-reisi-XQ-JLcLE1V0-unsplash.jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3>ビューティー八戸 <br>（青森県八戸市）</h3>
+                <span>洗いあがり最高に良いですわ。ブローもしやすく、スタイリングもしやすく、お客様の評判も上々です。</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="picture">
+                <img src="img/pexels-sie7e-29189919.jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3>美容室トヨ子 <br>（葛飾区新小岩）</h3>
+                <span>洗いあがり最高に良いですわ。ブローもしやすく、スタイリングもしやすく、お客様の評判も上々です。</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="picture">
+                <img src="img/glassesshop-gs-1.jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3>駅前パーマ <br>（千葉県木更津市）</h3>
+                <span>乾いた後もスッキリして、香りも良くて喜ばれる。おすすめだね。</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="picture">
+                <img src="img/maria-lh.jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3>テルヨパーマ <br>（葛飾区青砥）</h3>
+                <span>香りも良くて大変気に入られますわ。</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="picture">
+                <img src="img/binh-ly-k_4A59MzZTY-unsplash.jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3>オタダポン子 <br>（ヘアーメイク）</h3>
+                <span>洗いあがり最高に良いですわ。ブローもしやすく、スタイリングもしやすく、お客様の評判も上々です。</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="picture">
+                <img src="img/gregory-hayes-h5cd51KXmRQ-unsplash (1).jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3>所沢ダンディ <br>（埼玉県所沢市）</h3>
+                <span>乾いた後もスッキリして、香りも良くて喜ばれる。おすすめだね。</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="picture">
+                <img src="img/hoylee-02.jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3>おき幼稚園 <br>（島根県隠岐の島町）</h3>
+                <span>遊んだ後もみんなサッパリしてお帰りですよ。</span>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+      </div>
+    </section>
+
+    <!-- blue -->
+    <section class="feature mens" id="blue">
+      <div class="feature-photo"><img src="img/crown-sathees-telescope-4442913.jpg" alt="凛とした表情の男性ポートレート"></div>
+      <div class="feature-copy reveal">
+        <div class="eyebrow">05 / NICO BLUE — FOR MEN</div>
+        <div class="feature-number">03 — SCALP CARE</div>
+        <h2>頭皮が喜ぶ、<br>ニコ・ブルー。</h2>
+        <p>センブリエキス・アデノシンを配合。頭皮をすこやかに保ち、毎日のケアを心地よい習慣に。ベルガモットとカルダモンを、アンバーと白檀（サンダルウッド）が包み込む、奥行きのある香り。</p>
+        <div class="scent-notes"><span>BERGAMOT</span><span>CARDAMOM</span><span>AMBER</span><span>SANDALWOOD</span>
+        </div>
+        <div class="quote">「昨日と違う男。」<br>ワイルドさが隠せない。あふれ出る男気。</div>
+        <!-- img -->
+        <div class="mens-p">
+          <section class="u3d-08">
+            <div class="panelstack3d"><img src="img/shampoo-03.png" alt=""></div>
+            <div class="panelstack3d"><img src="img/pexels-man-1283231.jpg" alt=""></div>
+            <div class="panelstack3d"><img src="img/miranda-_h.jpg" alt=""></div>
+          </section>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--  producer -->
+    <section class="section producer" id="producer">
+      <div class="producer-grid">
+        <div class="producer-photo reveal"><img src="img/michael-dagonakis-KE4bV4dKlwk-unsplash.jpg"
+            alt="クリエイティブな女性のポートレート"></div>
+        <div class="producer-copy reveal">
+          <div class="eyebrow">06 / THE PRODUCER</div>
+          <h2>魅力的な髪へ<br>心躍るシャンプー。</h2>
+          <p>フランス出身、足立区綾瀬育ち。元モデルとして活動し、ショー・イベントプランナー、デザイナー、そして格闘家としても多彩な顔を持つ。</p>
+          <p>
+            チーフプロデューサー、ニコレット・アルバ。各方面のスペシャリストをまとめ上げ、何度も試行錯誤を重ねてたどり着いた、nico.のヘアケアシリーズ。世界中の女性の髪に心地よく馴染むことを目指して、ひとつひとつ丁寧に形にしました。
+          </p>
+          <div class="producer-name">ニコレット・アルバ<small>CHIEF PRODUCER / NICO.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- closing -->
+    <section class="closing">
+      <div class="eyebrow">A NEW LOVE STORY STARTS HERE</div>
+      <h2 class="serif">その髪に <b class="gradient-shift">恋</b>をした。</h2>
+      <p>毎日のシャンプーから、あなたの新しい物語を。</p><a class="contact" href="mailto:hello@example.com">CONTACT <span>↗</span></a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-logo"><img class="mainlogo" src="img/nico-logo.png" alt=""></div>
+    <div>HAIR CARE COLLECTION</div>
+    <div>© NICO. 2026</div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="ページトップへ戻る">↑<span>TOP</span></button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="./script.js" defer></script>
+
+
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
